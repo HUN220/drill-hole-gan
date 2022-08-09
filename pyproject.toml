@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "drill-hole-gan"
+version = "0.1.0"
+description = "Synthetic drill hole data generated using GAN"
+authors = ["Alex Hunt <alex.hunt@csiro.au>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.9"
+ydata-synthetic = "^0.6.1"
+ipykernel = "^6.9.1"
+umap-learn = {extras = ["plot"], version = "^0.5.2"}
+plotly = "^5.6.0"
+nbformat = "^5.1.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
